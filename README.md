@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+# Food Amigos test assignment
+
+## React + Tailwind + Frame Motion
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Scripts to run the app
+
+npm i to install packages
+
+### `npm i`
 
 In the project directory, you can run:
 
@@ -21,50 +27,38 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. `src`
+This directory contains all the source code for your project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. `assets`
+The `assets` directory is where you store static assets such as images, fonts, or any other files that are used in your application.
 
-### `npm run eject`
+### 3. `components`
+In the `components` directory, you'll find reusable UI components that are used across different parts of your application.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 4. `layouts`
+The `layouts` directory contains layout components that define the overall structure of your pages. Layouts typically include common elements like headers, footers, and sidebars.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 5. `pages`
+In the `pages` directory, you'll find components that represent individual pages or views in your application. Each page component typically corresponds to a specific route or URL.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 6. `routes`
+The `routes` directory houses the route configurations for your application. This is where you define the mapping between URLs and the corresponding page components.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 7. `store`
+The `store` directory contains the Vuex store modules for managing application state. Vuex is commonly used in Vue.js applications for centralized state management.
 
-## Learn More
+### 8. `utility`
+The `utility` directory is where you can place utility functions or helper classes that are used throughout your application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Framer Motion
+Framer Motion is a library for creating animations in React applications. It provides a simple and intuitive API for creating complex animations with ease.
 
-### Code Splitting
+### Tailwind CSS
+Tailwind CSS is a utility-fi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Icomoon
+Icomoon is a generated font for icons special for Food Amigos
